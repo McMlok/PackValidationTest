@@ -1,7 +1,9 @@
-﻿namespace TestLibrary
+﻿using MassTransit;
+
+namespace TestLibrary
 {
-  public class TestClass
+  public class TestClass : ActiveMqTransportOptions
   {
-    public string Host { get; set; }
+
   }
 }

@@ -4,6 +4,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsPackable>True</IsPackable>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
+    <EnablePackageValidation>True</EnablePackageValidation>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageValidationBaselineVersion>1.0.0</PackageValidationBaselineVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MassTransit.ActiveMq" Version="8.1.0"/>
+  </ItemGroup>
 </Project>
